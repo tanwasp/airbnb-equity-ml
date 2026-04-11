@@ -6,6 +6,9 @@
 ```
 proposal/
     proposal.pdf
+progress_report/
+    progress_report.ipynb
+    progress_report.pdf
 data/
     modeling.ipynb        # all data collection, cleaning, and prep code
     data_dictionary.xlsx  # variable descriptions
