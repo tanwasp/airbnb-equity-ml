@@ -2,3 +2,4 @@
 data/airbnb_cleaned.csv
 data/airbnb_cleaned_part1.csv
 data/airbnb_cleaned_part2.csv
+.DS_Store

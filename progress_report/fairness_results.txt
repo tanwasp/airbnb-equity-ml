@@ -1,0 +1,15 @@
+FAIRNESS METRICS (occupancy classifier)
+
+by neighborhood race composition (high_black = top quartile):
+            group     n  selection_rate      TPR      FPR  true_pos_rate
+high_black_nbhd=0 42050        0.504281 0.949798 0.078165       0.488870
+high_black_nbhd=1 14008        0.521773 0.957652 0.081767       0.502356
+DP gap: 0.0175  TPR gap: 0.0079  FPR gap: 0.0036
+
+by neighborhood income (low_income = bottom quartile):
+            group     n  selection_rate      TPR      FPR  true_pos_rate
+low_income_nbhd=0 42084        0.503398 0.950251 0.078058       0.487668
+low_income_nbhd=1 13974        0.524474 0.956300 0.082138       0.506011
+DP gap: 0.0211  TPR gap: 0.0060  FPR gap: 0.0041
+
+demographics share of total |SHAP| in price model: 27.6%

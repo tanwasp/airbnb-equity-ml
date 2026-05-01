@@ -1,0 +1,13 @@
+PRICE (median-imputed)
+XGBoost:        R2=0.8000  RMSE=$93.06  MAE=$54.96
+LightGBM:       R2=0.7841  RMSE=$96.27  MAE=$57.37
+XGBoost tuned:  R2=0.8072  RMSE=$91.38
+best params: {'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 400}
+5-fold CV R2: mean=0.7861  std=0.0047
+  folds: [np.float64(0.7812547809235438), np.float64(0.7804722618829689), np.float64(0.7886180201336171), np.float64(0.7931149822905104), np.float64(0.786891107400123)]
+
+OCCUPANCY
+XGBoost:  acc=0.9361  AUC=0.9863
+LightGBM: acc=0.9357  AUC=0.9861
+5-fold CV AUC: mean=0.9832  std=0.0007
+  folds: [np.float64(0.9818898271549704), np.float64(0.9835878908790839), np.float64(0.9840797325085595), np.float64(0.9831582945180479), np.float64(0.983392452557108)]
