@@ -1,0 +1,47 @@
+feature,mean_abs_shap
+accommodates,0.19906391
+median_home_value,0.10614974
+bedrooms,0.103809215
+bathrooms,0.07871644
+prop_private_room,0.07181977
+minimum_nights,0.060007405
+reviews_per_month,0.05626461
+pct_black,0.054067746
+median_gross_rent,0.04047013
+review_scores_rating,0.039945636
+has_pool,0.038298093
+review_scores_cleanliness,0.0359657
+availability_30,0.03580738
+review_scores_location,0.0349003
+review_scores_value,0.033476375
+pct_renter_occupied,0.031165672
+pct_hispanic,0.02948289
+has_gym,0.029164458
+calculated_host_listings_count,0.026820341
+pct_asian,0.02286786
+total_population,0.020338047
+host_acceptance_rate,0.018317737
+pct_college_educated,0.016325079
+number_of_reviews,0.016078493
+median_age,0.014460163
+beds,0.012157145
+availability_365,0.011867928
+pct_white,0.0117747625
+poverty_rate,0.011456415
+prop_hotel,0.0109464405
+host_response_time,0.010684741
+unemployment_rate,0.010139484
+maximum_nights,0.0097587025
+host_is_superhost,0.00934384
+instant_bookable,0.008494356
+median_household_income,0.0069124196
+room_Shared room,0.0064143934
+host_response_rate,0.006232219
+has_parking,0.0057708463
+host_identity_verified,0.0042102663
+room_Hotel room,0.003454719
+room_Private room,0.0022981304
+prop_other,0.0017886639
+prop_shared_room,0.0015257173
+host_has_profile_pic,0.00040173653
+has_wifi,0.00029939043
