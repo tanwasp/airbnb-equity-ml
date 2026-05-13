@@ -1,5 +1,13 @@
 .env
+<<<<<<< HEAD
 data/airbnb_cleaned.csv
 data/airbnb_cleaned_part1.csv
 data/airbnb_cleaned_part2.csv
 .DS_Store
+=======
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+outputs/models.pkl
+>>>>>>> 8c031ec2052138f2fc67f1988c070d7b12079837

@@ -1,0 +1,47 @@
+PRICE PREDICTION
+Linear Regression: R2 = 0.6226, RMSE = $275.79, MAE = $72.68
+Random Forest:     R2 = 0.7503, RMSE = $95.68, MAE = $56.71
+Listing only RF:   R2 = 0.6762, RMSE = $106.26
+Demo improvement:  delta R2 = 0.0741
+
+OCCUPANCY CLASSIFICATION
+Logistic Regression: acc = 0.8215, AUC = 0.8958
+Random Forest:       acc = 0.9066, AUC = 0.9638
+Listing only RF:     acc = 0.9081, AUC = 0.9657
+Demo improvement:    delta acc = -0.0015, delta AUC = -0.0019
+
+TOP FEATURES (PRICE - RF):
+                       feature  importance
+                  accommodates    0.366612
+                     bathrooms    0.148281
+             prop_private_room    0.080813
+             median_home_value    0.066951
+             median_gross_rent    0.027632
+                     pct_black    0.027246
+             reviews_per_month    0.021403
+                      bedrooms    0.021273
+          pct_college_educated    0.019276
+calculated_host_listings_count    0.017674
+        review_scores_location    0.015046
+                  pct_hispanic    0.014116
+                minimum_nights    0.011958
+              total_population    0.011034
+                     pct_asian    0.010886
+
+TOP FEATURES (OCCUPANCY - RF):
+                       feature  importance
+             reviews_per_month    0.259929
+             number_of_reviews    0.147774
+          host_acceptance_rate    0.102160
+                minimum_nights    0.088444
+            host_response_rate    0.045725
+             host_is_superhost    0.042171
+        review_scores_location    0.033210
+            host_response_time    0.032808
+              availability_365    0.032589
+           review_scores_value    0.026904
+               availability_30    0.025408
+     review_scores_cleanliness    0.021265
+          review_scores_rating    0.020596
+calculated_host_listings_count    0.018178
+                    median_age    0.006796
